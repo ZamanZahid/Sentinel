@@ -36,7 +36,7 @@ Sentinel is an AI-powered security and threat detection platform designed to ide
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/Sentinel.git
+git clone https://github.com/ZamanZahid/Sentinel.git
 cd Sentinel
 ```
 
