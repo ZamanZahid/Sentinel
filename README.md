@@ -17,13 +17,13 @@ Sentinel is an AI-powered security and threat detection platform designed to ide
 ## Features
 
 * AI-powered threat assessment
-* Real-time video analysis
+* Real-time video + audio analysis
 * YOLOv8 object detection
 * Facial and emotion recognition
 * Incident detection and alerting
 * Operations dashboard for monitoring events
-* Mobile responder application
-* YouTube and video file analysis
+* Mobile responder app
+* video + audio file analysis
 * Live camera management
 * Risk scoring and threat classification
 * Interactive maps and responder tracking
@@ -129,7 +129,7 @@ uvicorn main:app --reload --port 8001
 
 ## How It Works
 
-Sentinel analyzes uploaded videos, camera feeds, and external video sources using a combination of computer vision and AI models.
+Sentinel basically analyzes uploaded videos, camera feeds, external video or audio sources using a combination of computer vision and AI models.
 
 The system first detects people and objects using YOLOv8, then performs facial and emotion analysis with DeepFace. Relevant frames are passed to a large language model that evaluates potential threats, suspicious behavior, and emergency situations.
 
@@ -139,9 +139,7 @@ Results are displayed through the operations dashboard, allowing responders and 
 
 ## Future Plans
 
-* Live multi-camera monitoring
 * Push notifications and SMS alerts
-* Improved threat prediction models
 * Cloud deployment
 * Real-time responder dispatching
 * Historical analytics dashboard
@@ -149,8 +147,8 @@ Results are displayed through the operations dashboard, allowing responders and 
 
 ---
 
-## Why I Created Sentinel
+## Why We Created Sentinel
 
-I created Sentinel because most security systems are reactive instead of proactive. Cameras can record incidents, but they usually don't help prevent them.
+We created Sentinel because most security systems are reactive instead of proactive. Cameras can record incidents, but they usually don't help prevent them.
 
 Sentinel was built to bridge that gap by combining modern AI, computer vision, and real-time analysis into a platform that can identify threats, provide context, and help responders act faster. The goal is to turn passive surveillance into an intelligent system capable of recognizing dangerous situations before they become emergencies.
