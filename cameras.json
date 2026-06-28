@@ -1,9 +1,11 @@
 [
+  
   {
     "id": "CAM-01",
     "label": "Camera 01",
     "filename": "video_01.mov"
   },
+  
   {
     "id": "CAM-02",
     "label": "Camera 02",
