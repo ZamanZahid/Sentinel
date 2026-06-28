@@ -1,5 +1,5 @@
 {
-  "name": "hacktj-mobile-auth",
+  "name": "sentinel-mobile-auth",
   "version": "1.0.0",
   "description": "Mobile-first Supabase auth demo (login, signup, and home screen).",
   "scripts": {
@@ -9,7 +9,7 @@
     "supabase",
     "auth",
     "mobile",
-    "hacktj"
+    "sentinel"
   ],
   "license": "MIT"
 }
