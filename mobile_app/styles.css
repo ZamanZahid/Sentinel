@@ -25,6 +25,7 @@ body {
   padding: 0;
   font-family: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, Monaco,
     Consolas, "Liberation Mono", "Courier New", monospace;
+  
   background: #000000;
   color: var(--text-main);
   -webkit-font-smoothing: antialiased;
@@ -151,6 +152,7 @@ body {
   gap: 4px;
 }
 
+
 .form-field label {
   font-size: 12px;
   font-weight: 500;
@@ -233,6 +235,7 @@ body {
 .primary-button[disabled] {
   opacity: 0.6;
   cursor: default;
+  
   box-shadow: none;
   transform: none;
 }
@@ -298,6 +301,7 @@ body {
 }
 
 .home-panel {
+  
   margin-top: 4px;
   padding: 10px 10px 9px;
   border-radius: 18px;
@@ -444,6 +448,7 @@ body {
 .emergency-status-dot--high {
   background: #f97316;
 }
+
 
 .emergency-status-dot--normal {
   background: #22c55e;
@@ -627,6 +632,7 @@ body {
 }
 
 .app-footer {
+  
   margin-top: auto;
   padding-top: 10px;
   font-size: 11px;
